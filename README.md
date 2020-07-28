@@ -26,13 +26,15 @@ Usability-Evaluation: Fragebögen
 -------------------------------------
 -------------------------------------
 
-How to review the Application?
+Wie kann die Implementierung getestet werden?
 
-There are two ways to do it:
+Es gibt zwei Möglichkeiten, dies zu tun:
 
-Import the project from the src folder into Android Studio and use the folowing tools to build:
+1. Importieren Sie das Projekt aus dem Ordner src in Android Studio und erstellen Sie es mit den folgenden Tools:
+
 Software Development Kit: Android Pie Version 9 mit API 28
 
 Emulator: Pixel 2 or Nexus 5X
 
-Download the apk from the apk folder and install it on your mobile phone.
+
+2. Laden Sie die apk aus dem apk-Ordner herunter und installieren Sie sie auf Ihrem Handy.
