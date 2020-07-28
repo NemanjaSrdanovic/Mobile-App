@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Reiseführer</string>
+    <string name="line_1">Line 1</string>
+    <string name="slike">Slike</string>
+    <string name="search">Search</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="download_guide">Download Guide</string>
+    <string name="myaccount">MyAccount</string>
+    <string name="stadt">Stadt</string>
+    <string name="restoran">Restoran</string>
+    <string name="attractions">Attractions</string>
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="website">zur Webseite</string>
+    <string name="pm">PM</string>
+    <string name="my_guides">My Guides</string>
+    <string name="logout">logout</string>
+    <string name="imageuser">ImageUser</string>
+    <string name="login">login</string>
+    <string name="sign_up">sign up</string>
+    <string name="username_or_email">Username</string>
+
+</resources>

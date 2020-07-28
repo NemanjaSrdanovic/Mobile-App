@@ -1,0 +1,4 @@
+#Wed Apr 24 14:06:41 CEST 2019
+base.0=C\:\\Users\\Anes\\AndroidStudioProjects\\Reisefhrer\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

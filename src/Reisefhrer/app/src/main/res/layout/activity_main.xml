@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="86dp"
+        app:layout_constraintBottom_toBottomOf="@+id/login_path"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/login_path"
+        android:layout_width="179dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="267dp"
+        android:background="@drawable/rounded_button"
+        android:text="LOGIN"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintStart_toEndOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/signup_path"
+        android:layout_width="179dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/rounded_button"
+        android:text="SIGN UP "
+        android:textColor="@android:color/background_light"
+        app:layout_constraintStart_toStartOf="@+id/login_path"
+        app:layout_constraintTop_toBottomOf="@+id/login_path" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:text="Online"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/switch2"
+        app:layout_constraintEnd_toStartOf="@+id/switch2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:text="Offline"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/switch2"
+        app:layout_constraintStart_toEndOf="@+id/switch2" />
+</android.support.constraint.ConstraintLayout>
